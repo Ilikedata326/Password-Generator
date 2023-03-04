@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+    min-height: 100vh;
+}                       
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    font-weight: 500;
+}
+ 
+#generate-password{
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 50%;
+    max-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+span{
+    font-size: 20px;
+}
+
+.choice{
+    font-size: 30px;
+} 
+
+#form{
+    
+    align-content: center;
+    margin-left: 40px;
+}
+
+form #btn button{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background:  rgba(255, 255, 255, .3);
+    padding: 10px;
+    border: 5px;
+    border-color: rgba(255, 255, 255, .6);
+    box-shadow: 2px 2px 2px 2px;
+ }
+
+ form #btn button:hover{
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+ }
+
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
+}
+
+
+ /*============== Your password page ==========*/
+ #btn button{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background:  rgba(255, 255, 255, .3);
+    padding: 10px;
+    border: 5px;
+    border-color: rgba(255, 255, 255, .6);
+    box-shadow: 2px 2px 2px 2px;
+}
+
+#btn button:hover{
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+#btn h2{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 75px;  
+    box-shadow: 2px 2px 2px 2px;
+}
